@@ -1,0 +1,117 @@
+/*resetting default*/
+*
+{ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+body
+{
+    background-color: #d8da3d;
+    margin-top: 20px;
+}
+/*list styling*/
+.same ul
+{
+    list-style: none;
+}
+
+.same ul li
+{
+    background-color: #ffffff;
+    margin: 10px 0 0 8px;
+    padding: 5px 5px 5px 5px;
+    width: 160px;
+    align-items: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.color2
+{
+    border-right: 15px solid #0000FF;
+}
+
+.color1
+{
+    border-right: 15px solid #FF7F00;
+}
+
+/*paragraph styling*/
+p
+{
+    padding-left: 25px; 
+}
+/*line styling*/
+hr
+{
+    border: 0.5px dotted #80007E;
+    width: 1500px;
+}
+/*div class*/
+.same
+{
+        display: table;
+        color:#80007E;
+}
+
+.same ul 
+{
+    display: table-cell;
+}
+
+.same p
+{
+    display:table-cell;
+}
+
+/*h1 id for font */
+#font_h1
+{
+    font-family: sans-serif;
+}
+/*for border elements*/
+#text1
+{
+    
+    margin:0 0 0 220px;
+    border: 2px dashed black;
+    width: 950px;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+#text2
+{
+    border: #FF7F00;
+    margin:0 0 0 220px;
+    border: 2px dashed #FF7F00;
+    width: 950px;
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    padding: 10px 10px 10px 10px;
+}
+
+#text3
+{
+    
+    margin:0 0 0 220px;
+    border: 2px dotted #0000FF;
+    width: 950px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+/* class for italic text*/
+.another
+{
+    margin:0 0 0 220px;  
+    color: #80007E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+
+
